@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.GraphActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Analyse"
+            android:textSize="26dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Head Graph" />
+
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/Head"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"></com.github.mikephil.charting.charts.LineChart>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Neck Graph" />
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/Neck"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"></com.github.mikephil.charting.charts.LineChart>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Ball Graph" />
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/Ball"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"></com.github.mikephil.charting.charts.LineChart>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="End of Scroll View" />
+    </LinearLayout>
+
+</ScrollView>

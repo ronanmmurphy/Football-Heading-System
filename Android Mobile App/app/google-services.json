@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "363338004724",
+    "firebase_url": "https://ballheadingdatabase.firebaseio.com",
+    "project_id": "ballheadingdatabase",
+    "storage_bucket": "ballheadingdatabase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:363338004724:android:29afaf56ff906aab",
+        "android_client_info": {
+          "package_name": "com.example.ronan.heading_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "363338004724-gkt0o2s4sidt1mv60cao647254eibf7t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ronan.heading_app",
+            "certificate_hash": "e353d7c9ccd529b1e21a4917260c3e9a177e73c5"
+          }
+        },
+        {
+          "client_id": "363338004724-eogae76qer7s5mu8l15uledesvcqf078.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHwAcOjoSn5jotv2dgbiuvp8QeGjyW5CY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "363338004724-eogae76qer7s5mu8l15uledesvcqf078.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
